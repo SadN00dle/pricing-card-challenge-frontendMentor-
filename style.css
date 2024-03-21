@@ -1,0 +1,116 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+body{
+  padding: 20px;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+h2, h4, p{
+  margin: 0px;
+}
+
+/*coloring and margin of upperText*/
+.top-section h2{
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+.top-section h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+.top-section p{
+  color: #98a6bd;
+}
+/* End of coloring  and margin of upperText*/
+
+/*overall Boundary of the card */
+.overworld-box{
+  width: 650px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* top and bottom sections */
+.top-section{
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+.bottom-section{
+  width: 100%;
+  height: 55%;
+}
+
+/* bottom-left and bottom-right sections */
+.bottom-left{
+  background-color: #2ab2af;
+}
+.bottom-right{
+  background-color: #2EBFBD;
+}
+
+.bottom-left, .bottom-right{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  padding: 25px;
+  color: white;
+}
+
+.bottom-left h4{
+  margin-bottom: 25px;
+}
+
+/* price box */
+#price{
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.4rem; 
+}
+#rate{
+  display: inline-block;
+  margin-left: 5px;
+  opacity: 0.6;
+  position: relative;
+  top: -3px;
+  font-size: 0.8rem;
+}
+#price-box{
+  margin-bottom: 10px;
+}
+
+.bottom-left p{
+  font-size: 0.8rem;
+  margin-bottom: 40px;
+}
+
+/* button styiling */ 
+
+.sign-up{
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+.sign-up:hover{
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+
+
+ul{
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
